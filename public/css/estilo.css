@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header {
+    background-color: #30a08d;
+    color: #95152e !important;
+}
+
+.anuncie a {
+    color: #95152e;
+    text-decoration: none;
+    padding: 8px 20px;
+    background: white;
+    margin-left: 36px;
+    display: block;
+    font-weight: bold;
+}
+.btn-imovel {
+    color: #95152e;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #65e4a3;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid #65e4a3;
+}
+.btn-anuncio {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #95152e;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+.anuncie a:hover {
+    color: white;
+    background-color: #95152e;
+}
+.readmore {
+    color: #95152e;
+}
+.logo-text {
+    font-family: 'Philosopher', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #95152e;
+}
+.nav-pills .nav-link, .nav-pills .show > .nav-link {
+    color: #333;
+    background-color: transparent;
+}
+
+
+#navbar {
+    overflow: hidden;
+    background-color: transparent;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 99;
+
+}
+  
+  
+  #navbar-right {
+    float: right;
+  }
+  
